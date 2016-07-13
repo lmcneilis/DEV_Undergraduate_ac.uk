@@ -1,0 +1,30 @@
+.full-width-bg {background:url(../images/img-legal.jpg) center; background-size:cover; min-height: 70vh; box-sizing: border-box; padding: 10vh 0;}
+.full-width-bg h2, .full-width-bg p {color: #fff;}
+
+@media (max-width: 768px) {
+    .full-width-bg {background: none; min-height: auto; padding: 0 15px;}
+    .full-width-bg h2, .full-width-bg p {color: #4a4a4a;}
+}
+
+.split-bg {background-image:url(../images/img-why.jpg); background-size:cover; min-height: 70vh; padding-right: 0;}
+.split-bg h2, .split-bg p, .split-bg ul li {color: #fff;}
+
+.opacity {background:rgba(0, 0, 0, 0.6); min-height:70vh;}
+
+@media (max-width: 768px) {
+    .split-bg {background-image:none; min-height: auto; padding: 0 15px;}
+    .split-bg h2, .split-bg p, .split-bg ul li {color: #4a4a4a;}
+    .opacity {background:none; min-height: initial;}
+}
+
+.testimonial {background:url(../images/img-summary2.jpg) center; background-size:cover; min-height: 70vh;}
+.testimonial h2, .testimonial p, .testimonial-2 h2, .testimonial-2 p {color: #fff;}
+
+@media (max-width: 768px) {
+    .testimonial {background-image:none; min-height: auto;}
+    .testimonial h2, .testimonial p, .testimonial ul li, .testimonial-2 h2, .testimonial-2 p {color: #4a4a4a;}
+}
+
+.intl-tel-input {
+    margin-bottom: 9px;
+}

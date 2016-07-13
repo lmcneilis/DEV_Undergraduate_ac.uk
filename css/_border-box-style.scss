@@ -1,0 +1,22 @@
+.border-box {
+    border: 3px solid #772583;
+    padding: 20px;
+    margin: 40px 0 20px 0;
+    
+    img {
+        max-width: 100%;
+        width: initial;
+    }
+    
+    p {
+        color: #772583;
+    }
+}
+
+.border-box.inverted {
+    border: 3px solid #fff;
+    
+    p {
+        color: #fff;
+    }
+}
